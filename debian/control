@@ -1,0 +1,12 @@
+Source: ros-galactic-turtlebot4-python-tutorials
+Section: misc
+Priority: optional
+Maintainer: rkreinin <rkreinin@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-galactic-ament-copyright <!nocheck>, ros-galactic-ament-flake8 <!nocheck>, ros-galactic-ament-pep257 <!nocheck>, ros-galactic-irobot-create-msgs, ros-galactic-rclpy, ros-galactic-turtlebot4-navigation, ros-galactic-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-galactic-turtlebot4-python-tutorials
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-galactic-irobot-create-msgs, ros-galactic-rclpy, ros-galactic-turtlebot4-navigation, ros-galactic-ros-workspace
+Description: TurtleBot 4 Python Tutorials
