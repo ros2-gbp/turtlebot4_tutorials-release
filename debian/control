@@ -1,0 +1,12 @@
+Source: ros-galactic-turtlebot4-cpp-tutorials
+Section: misc
+Priority: optional
+Maintainer: rkreinin <rkreinin@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-galactic-ament-cmake, ros-galactic-ament-lint-auto <!nocheck>, ros-galactic-ament-lint-common <!nocheck>, ros-galactic-irobot-create-msgs, ros-galactic-rclcpp, ros-galactic-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-galactic-turtlebot4-cpp-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-galactic-irobot-create-msgs, ros-galactic-rclcpp, ros-galactic-ros-workspace
+Description: TurtleBot 4 C++ Tutorials
