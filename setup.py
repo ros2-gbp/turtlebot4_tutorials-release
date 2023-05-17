@@ -4,7 +4,7 @@ package_name = 'turtlebot4_python_tutorials'
 
 setup(
     name=package_name,
-    version='1.0.0',
+    version='1.0.1',
     packages=[package_name],
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -26,6 +26,8 @@ setup(
             'nav_through_poses = turtlebot4_python_tutorials.nav_through_poses:main',
             'follow_waypoints = turtlebot4_python_tutorials.follow_waypoints:main',
             'create_path = turtlebot4_python_tutorials.create_path:main',
+            'patrol_loop = turtlebot4_python_tutorials.patrol_loop:main',
+            'mail_delivery = turtlebot4_python_tutorials.mail_delivery:main',
         ],
     },
 )
